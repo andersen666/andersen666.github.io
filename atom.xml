@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>andersen</title>
+  <icon>https://www.gravatar.com/avatar/a16d7826b8254b112c838efeadfe2f13</icon>
+  <subtitle>记录与学习</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://andersen666.github.io.git/"/>
+  <updated>2019-07-16T11:13:55.850Z</updated>
+  <id>https://andersen666.github.io.git/</id>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我推荐的编程书籍</title>
+    <link href="https://andersen666.github.io.git/2019/07/16/%E6%88%91%E6%8E%A8%E8%8D%90%E7%9A%84%E7%BC%96%E7%A8%8B%E4%B9%A6%E7%B1%8D/"/>
+    <id>https://andersen666.github.io.git/2019/07/16/我推荐的编程书籍/</id>
+    <published>2019-07-16T11:12:22.000Z</published>
+    <updated>2019-07-16T11:13:55.850Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="《代码大全》-Code-Complete"><a href="#《代码大全》-Code-Complete" class="headerlink" title="《代码大全》 Code Complete"></a>《代码大全》 Code Complete</h2><p>。。。该书籍的介绍。。。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;《代码大全》-Code-Complete&quot;&gt;&lt;a href=&quot;#《代码大全》-Code-Complete&quot; class=&quot;headerlink&quot; title=&quot;《代码大全》 Code Complete&quot;&gt;&lt;/a&gt;《代码大全》 Code Complete&lt;/h2&gt;&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://andersen666.github.io.git/2019/07/15/test/"/>
+    <id>https://andersen666.github.io.git/2019/07/15/test/</id>
+    <published>2019-07-15T15:48:59.000Z</published>
+    <updated>2019-07-15T15:53:56.046Z</updated>
+    
+    <content type="html"><![CDATA[<p>write somethong</p><p>test</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;write somethong&lt;/p&gt;
+&lt;p&gt;test&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://andersen666.github.io.git/2019/07/15/hello-world/"/>
+    <id>https://andersen666.github.io.git/2019/07/15/hello-world/</id>
+    <published>2019-07-15T12:02:10.898Z</published>
+    <updated>2019-07-15T12:14:45.493Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="hello-hexo"><a href="#hello-hexo" class="headerlink" title="hello hexo"></a>hello hexo</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
