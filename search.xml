@@ -4,30 +4,11 @@
   
     
     <entry>
-      <title>我推荐的编程书籍</title>
-      <link href="/2019/07/16/%E6%88%91%E6%8E%A8%E8%8D%90%E7%9A%84%E7%BC%96%E7%A8%8B%E4%B9%A6%E7%B1%8D/"/>
-      <url>/2019/07/16/%E6%88%91%E6%8E%A8%E8%8D%90%E7%9A%84%E7%BC%96%E7%A8%8B%E4%B9%A6%E7%B1%8D/</url>
-      
-        <content type="html"><![CDATA[<h2 id="《代码大全》-Code-Complete"><a href="#《代码大全》-Code-Complete" class="headerlink" title="《代码大全》 Code Complete"></a>《代码大全》 Code Complete</h2><p>。。。该书籍的介绍。。。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>test</title>
       <link href="/2019/07/15/test/"/>
       <url>/2019/07/15/test/</url>
       
-        <content type="html"><![CDATA[<p>write somethong</p><p>test</p>]]></content>
+        <content type="html"><![CDATA[<p>write somethong</p><p>test<br>x</p>]]></content>
       
       
       <categories>
