@@ -6,10 +6,34 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://andersen666.github.io.git/"/>
-  <updated>2019-07-17T08:16:51.675Z</updated>
+  <updated>2019-07-17T10:57:26.572Z</updated>
   <id>https://andersen666.github.io.git/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客更新日志</title>
+    <link href="https://andersen666.github.io.git/2019/07/17/blog-update/"/>
+    <id>https://andersen666.github.io.git/2019/07/17/blog-update/</id>
+    <published>2019-07-17T10:52:25.000Z</published>
+    <updated>2019-07-17T10:57:26.572Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="博客更新日志"><a href="#博客更新日志" class="headerlink" title="博客更新日志"></a>博客更新日志</h4><p><strong>2019-7-15</strong>  完成github+nexo基本搭建</p><p><strong>2019-7-16</strong>  完成next主题的更换与美化</p><p><strong>2019-7-17</strong>  完成博客后期最后的调整等</p><p><em>未完待续</em></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;博客更新日志&quot;&gt;&lt;a href=&quot;#博客更新日志&quot; class=&quot;headerlink&quot; title=&quot;博客更新日志&quot;&gt;&lt;/a&gt;博客更新日志&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;2019-7-15&lt;/strong&gt;  完成github+nexo基本搭建&lt;/p&gt;
+&lt;p&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="博客相关" scheme="https://andersen666.github.io.git/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

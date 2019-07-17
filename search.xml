@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>博客更新日志</title>
+      <link href="/2019/07/17/blog-update/"/>
+      <url>/2019/07/17/blog-update/</url>
+      
+        <content type="html"><![CDATA[<h4 id="博客更新日志"><a href="#博客更新日志" class="headerlink" title="博客更新日志"></a>博客更新日志</h4><p><strong>2019-7-15</strong>  完成github+nexo基本搭建</p><p><strong>2019-7-16</strong>  完成next主题的更换与美化</p><p><strong>2019-7-17</strong>  完成博客后期最后的调整等</p><p><em>未完待续</em></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客相关 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2019/07/15/hello-world/"/>
       <url>/2019/07/15/hello-world/</url>
