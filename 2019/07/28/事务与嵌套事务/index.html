@@ -99,9 +99,9 @@
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g5fnfjxtzxj20pe05t74b.jpg">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g5fng0cxt4j20f607ljrp.jpg">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g5fnge5dcdj20rb092my6.jpg">
-<meta property="og:image" content="d:%5CBlog%5Candersen666Blog%5Csource_posts%5C%E4%BA%8B%E5%8A%A1%E4%B8%8E%E5%B5%8C%E5%A5%97%E4%BA%8B%E5%8A%A1%5C%E4%BA%8B%E5%8A%A110.png">
+<meta property="og:image" content="https://andersen666.github.io.git/2019/07/28/事务与嵌套事务/!%5B%5D(http://ww1.sinaimg.cn/large/c44b3fe4gy1g5mu8y8w16j20t3088n0f.jpg)">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g5fngtwwewj20jf06umxo.jpg">
-<meta property="og:updated_time" content="2019-08-02T17:07:37.606Z">
+<meta property="og:updated_time" content="2019-08-03T14:03:57.047Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="事务与嵌套事务">
 <meta name="twitter:description" content="事务当我们在银行系统中，我们需要的功能是张三转给李四150元，李四收到张三150元。我们新建账户表Test_Tran，因为在实际情况中，钱数在银行卡内是&amp;gt;0  的,所以添加check约束 Money&amp;gt;0。我们会采用一下语句 12UPDATE Test_Tran SET Money=Money-150 WHERE  Id=1UPDATE  dbo.Test_Tran  SET Money">
@@ -508,7 +508,7 @@
 <p>我们就会修改一下内存储过程代码（简化）</p>
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"> <span class="keyword">BEGIN</span> TRAN tran1      <span class="comment">--开始事务 </span></span><br><span class="line"></span><br><span class="line">     <span class="keyword">SAVE</span> TRAN tranpoint   <span class="comment">--保存事务点</span></span><br><span class="line"></span><br><span class="line">………..代码……….</span><br><span class="line"></span><br><span class="line">      <span class="keyword">IF</span>(<span class="keyword">EXISTS</span>(<span class="keyword">SELECT</span> TOP <span class="number">1</span> * <span class="keyword">FROM</span> dbo.test <span class="keyword">WHERE</span> <span class="keyword">ID</span>=@<span class="keyword">ID</span>))    </span><br><span class="line"></span><br><span class="line">       <span class="keyword">BEGIN</span></span><br><span class="line"></span><br><span class="line"> </span><br><span class="line">               <span class="keyword">ROLLBACK</span> TRAN tranpoint ;   <span class="comment">--回滚保存点的事务   </span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">             RETURN 0 ;  </span><br><span class="line">       <span class="keyword">END</span></span><br></pre></td></tr></table></figure>
 
-<p>but。。。。。<img src="D:%5CBlog%5Candersen666Blog%5Csource_posts%5C%E4%BA%8B%E5%8A%A1%E4%B8%8E%E5%B5%8C%E5%A5%97%E4%BA%8B%E5%8A%A1%5C%E4%BA%8B%E5%8A%A110.png" alt="loading"></p>
+<p>but。。。。。<img src="!%5B%5D(http://ww1.sinaimg.cn/large/c44b3fe4gy1g5mu8y8w16j20t3088n0f.jpg)" alt="loading"></p>
 <p>好消息是报错减少一个，再次观察，我们虽然保存了返回点，但是没有注意到  ROOLBACK返回值 @@TRANCOUNT值是不变化的。所以可以看到的 再回滚子事务后  @@TRANCOUNT依旧是2，</p>
 <p>但是明明 在父事务中当时begin 是  @@TRANCOUNT是1 这样，但是你进入了一个子存储变2了，应该是0呀，sql就会报错。</p>
 <p><strong>理所当然我们第一时间想到的是，既然ROOLBACK返回保存点不变话，当然，再将其提交不就ok</strong></p>
@@ -763,7 +763,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">3.2k</span>
+    <span title="Site words total count">3.1k</span>
   
 </div>
 
