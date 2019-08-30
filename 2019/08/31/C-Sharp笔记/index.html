@@ -81,25 +81,34 @@
 
 
 
-<meta name="description" content="目的性是想往数据库一张表中插入数据utb_log_DailyEvents（日志表)和Mes_Apply（申请表） 如下表（utb_log_DailyEvents）：  如下表（Mes_Apply）  其中涉及到的表有Log_EmployeeList，（工程师表），stb006（人员表）， Log_Contents（事件类型表）。 CIMS字段从Log_EmployeeList表EmploeeCod">
+<meta name="description" content="类（class）与名称空间(namespace)先举例： 类库：图书馆 命名空间：书架（计算机与科学书架（库）） 类： 书 对象：具体的某本书 在C#种必须首先引用命名空间，相当于我要找书，先要知道书架在哪。 在代码中 12//命名空间 .类.方法         System. Console.WriteLine(&amp;quot;hello world&amp;quot;);  但是因为每次都这么使用会显得">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一个窗体应用程序">
-<meta property="og:url" content="https://andersen666.github.io.git/2019/08/14/第一个窗体(应用程序)/index.html">
+<meta property="og:title" content="C_Sharp笔记">
+<meta property="og:url" content="https://andersen666.github.io.git/2019/08/31/C-Sharp笔记/index.html">
 <meta property="og:site_name" content="andersen">
-<meta property="og:description" content="目的性是想往数据库一张表中插入数据utb_log_DailyEvents（日志表)和Mes_Apply（申请表） 如下表（utb_log_DailyEvents）：  如下表（Mes_Apply）  其中涉及到的表有Log_EmployeeList，（工程师表），stb006（人员表）， Log_Contents（事件类型表）。 CIMS字段从Log_EmployeeList表EmploeeCod">
+<meta property="og:description" content="类（class）与名称空间(namespace)先举例： 类库：图书馆 命名空间：书架（计算机与科学书架（库）） 类： 书 对象：具体的某本书 在C#种必须首先引用命名空间，相当于我要找书，先要知道书架在哪。 在代码中 12//命名空间 .类.方法         System. Console.WriteLine(&amp;quot;hello world&amp;quot;);  但是因为每次都这么使用会显得">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zluyiq53j21db01hq2s.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zmotknpmj20zn018q2r.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zm4hzi7oj205701i0qz.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zm5t959kj21dw01gdfo.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zmd6raivj20o709s3ys.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zmrkzjlmj20rb0m9glw.jpg">
-<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g609cp6n51j20xg0b2wf8.jpg">
-<meta property="og:updated_time" content="2019-08-15T05:20:43.761Z">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68rmh75f5j211v0irjsa.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68rrmn88aj20jl0dvabe.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68rupppx4j20qf091glm.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68ryz3flfj20sh0clwep.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68s3p3f9kj20su0c2aa8.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68sw1ufgoj20v80i2jt3.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68sxkbvylj20az0ec3z3.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68syycmfhj215r0kuwgf.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68t2hoa1oj20tk0f6dgx.jpg">
+<meta property="og:image" content="https://ws2.sinaimg.cn/large/c44b3fe4gy1g6i1x6kadgj20vp0m2k98.jpg">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/c44b3fe4gy1g6i3572r2oj20x60didge.jpg">
+<meta property="og:image" content="https://wx4.sinaimg.cn/large/c44b3fe4gy1g6i3n95whhj21gv0ketal.jpg">
+<meta property="og:image" content="http://wx2.sinaimg.cn/large/c44b3fe4gy1g6i3ywm32kj20b40djwep.jpg">
+<meta property="og:image" content="http://ws1.sinaimg.cn/large/c44b3fe4gy1g6i41p2xbfj20bt0ejwes.jpg">
+<meta property="og:image" content="http://ws2.sinaimg.cn/large/c44b3fe4gy1g6i49p1rdjj20by0jvgm5.jpg">
+<meta property="og:image" content="http://ws1.sinaimg.cn/large/c44b3fe4gy1g6i5xpd6n0j211j0k9abu.jpg">
+<meta property="og:updated_time" content="2019-08-30T16:22:59.366Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="第一个窗体应用程序">
-<meta name="twitter:description" content="目的性是想往数据库一张表中插入数据utb_log_DailyEvents（日志表)和Mes_Apply（申请表） 如下表（utb_log_DailyEvents）：  如下表（Mes_Apply）  其中涉及到的表有Log_EmployeeList，（工程师表），stb006（人员表）， Log_Contents（事件类型表）。 CIMS字段从Log_EmployeeList表EmploeeCod">
-<meta name="twitter:image" content="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zluyiq53j21db01hq2s.jpg">
+<meta name="twitter:title" content="C_Sharp笔记">
+<meta name="twitter:description" content="类（class）与名称空间(namespace)先举例： 类库：图书馆 命名空间：书架（计算机与科学书架（库）） 类： 书 对象：具体的某本书 在C#种必须首先引用命名空间，相当于我要找书，先要知道书架在哪。 在代码中 12//命名空间 .类.方法         System. Console.WriteLine(&amp;quot;hello world&amp;quot;);  但是因为每次都这么使用会显得">
+<meta name="twitter:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68rmh75f5j211v0irjsa.jpg">
 
 
 
@@ -129,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="https://andersen666.github.io.git/2019/08/14/第一个窗体(应用程序)/">
+  <link rel="canonical" href="https://andersen666.github.io.git/2019/08/31/C-Sharp笔记/">
 
 
 
 
 
-  <title>第一个窗体应用程序 | andersen</title>
+  <title>C_Sharp笔记 | andersen</title>
   
 
 
@@ -294,7 +303,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://andersen666.github.io.git/2019/08/14/第一个窗体(应用程序)/">
+    <link itemprop="mainEntityOfPage" href="https://andersen666.github.io.git/2019/08/31/C-Sharp笔记/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content>
@@ -311,7 +320,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">第一个窗体应用程序</h1>
+          <h1 class="post-title" itemprop="name headline">C_Sharp笔记</h1>
         
 
         <div class="post-meta">
@@ -323,8 +332,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-14T22:32:23+08:00">
-                2019-08-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-31T00:22:04+08:00">
+                2019-08-31
               </time>
             
 
@@ -377,7 +386,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  244  字
+                  1.9k  字
                 </span>
               
 
@@ -393,7 +402,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1 分钟
+                  7 分钟
                 </span>
               
             </div>
@@ -414,37 +423,179 @@
       
 
       
-        <p>目的性<strong>是想往数据库一张表中插入数据utb_log_DailyEvents（日志表)和Mes_Apply（申请表）</strong></p>
-<p>如下表（utb_log_DailyEvents）：</p>
-<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zluyiq53j21db01hq2s.jpg" alt="loading"></p>
-<p>如下表（Mes_Apply）</p>
-<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zmotknpmj20zn018q2r.jpg" alt="loading"></p>
-<p>其中涉及到的表有Log_EmployeeList，（工程师表），stb006（人员表），</p>
-<p>Log_Contents（事件类型表）。</p>
-<p>CIMS字段从Log_EmployeeList表EmploeeCode字段获得；</p>
-<p>Sponsor字段是从stb006表UserCode获得</p>
-<p>Remark字段是从Log_Contents表Programme获得</p>
-<p>表分别列出：</p>
-<p>Log_EmployeeList</p>
-<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zm4hzi7oj205701i0qz.jpg" alt="loading"></p>
-<p>stb006</p>
-<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zm5t959kj21dw01gdfo.jpg" alt="loading"></p>
-<p>Log_Contents</p>
-<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zmd6raivj20o709s3ys.jpg" alt="loading"></p>
-<p>需要注意的是表utb_log_DailyEvents Ordinal为主键，自增列</p>
-<p>做出的效果如图：</p>
-<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4ly1g5zmrkzjlmj20rb0m9glw.jpg" alt="loading"></p>
-<p>先整体规划布局：</p>
-<p>用到的控件是textBox，comboBox，richTextBox，dateTimePicker，button。</p>
-<p>主要在于添加日志button按钮事件</p>
-<p>以下是碰到的几个坑：</p>
-<p><strong>将varchar值转换为数据类型为int的列时发生语法错误</strong></p>
-<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g609cp6n51j20xg0b2wf8.jpg" alt="loading"></p>
-<p>用cast()函数进行转换即可，将EmploeeCode转换成字符类型即可。<strong>cast(EmploeeCode as varchar(50))</strong>,然后进行匹配和比较就不会发生错误了。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cmd.CommandText = &quot; SELECT Name FROM dbo.Log_EmployeeList WHERE cast(EmploeeCode as varchar(50)) = &apos;&quot; + comboBox2.Text + &quot;&apos;&quot;;</span><br></pre></td></tr></table></figure>
+        <h5 id="类（class）与名称空间-namespace"><a href="#类（class）与名称空间-namespace" class="headerlink" title="类（class）与名称空间(namespace)"></a>类（class）与名称空间(namespace)</h5><p><em>先举例</em>：</p>
+<p><strong>类库</strong>：图书馆</p>
+<p><strong>命名空间</strong>：书架（计算机与科学书架（库））</p>
+<p><strong>类</strong>： 书</p>
+<p><strong>对象</strong>：具体的某本书</p>
+<p>在C#种必须首先引用命名空间，相当于我要找书，先要知道书架在哪。</p>
+<p>在代码中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//命名空间 .类.方法       </span><br><span class="line">  System. Console.WriteLine(&quot;hello world&quot;);</span><br></pre></td></tr></table></figure>
 
-<p>本地下载 <a href="/download/demoxxx.rar" ">点击下载</a></p>
-<p>百度网盘 <a href="https://pan.baidu.com/s/1hqC2DH4_-oJ2GoWEr1HB4g" " target="_blank" rel="noopener">点击下载</a></p>
+<p>但是因为每次都这么使用会显得特别麻烦，如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">System. Console.WriteLine(&quot;hello world&quot;);</span><br><span class="line">System. Console.WriteLine(&quot;hello world1&quot;);</span><br><span class="line">System. Console.WriteLine(&quot;hello world2&quot;);</span><br><span class="line">System. Console.WriteLine(&quot;hello world3&quot;);</span><br><span class="line">System. Console.WriteLine(&quot;hello world4&quot;);</span><br></pre></td></tr></table></figure>
+
+<p>所以我们会引用命名空间,这样会更简练。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">using System;</span><br><span class="line">.....代码......</span><br><span class="line">Console.WriteLine(&quot;hello world&quot;);</span><br></pre></td></tr></table></figure>
+
+<p>类和命名空间放到类库（物理基础）又称动态链接库。</p>
+<p>我们可以这么理解类库（类的仓库），假如我们知道了某本书在哪个书架，但是连图书馆都没有，知道书架都没用，所有举例来说图书馆就是类库。（.dll）。</p>
+<p><strong>那么动态链接库怎么创建</strong>，<strong>怎么引用呢</strong>？</p>
+<p>我们先来引用看下，分为<strong>黑盒引用</strong>，<strong>白盒引用</strong></p>
+<p>我们首先新建一个控制台项目：</p>
+<p><em>黑盒引用就是无源代码引用</em>我们此时只有.dll文件</p>
+<p>右键引用。</p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68rmh75f5j211v0irjsa.jpg" alt="引用"></p>
+<p>此时我们在项目内使用该类库的里面的类，我们可以通过双击该类库查看里面的类。</p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68rrmn88aj20jl0dvabe.jpg" alt="引用类"></p>
+<p>我们可以看到Tools命名空间内含有一个cal的类。我们再在代码中使用该类，先引用该命名空间</p>
+<p>using Tools</p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68rupppx4j20qf091glm.jpg" alt="引用类计算"></p>
+<p>我们可以观察到里面有两个方法，Add和sub,分别是double类型，并且返回double类型，。</p>
+<p>可以计算并且调试。</p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68ryz3flfj20sh0clwep.jpg" alt="计算调试。"></p>
+<p>我们同样使用sub方法（减法）</p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68s3p3f9kj20su0c2aa8.jpg" alt="计算调试减"></p>
+<p>我们会发现一个问题，结果应该是0.1，但是却是-9.9,这时候我们就可以看出黑盒引用的弊端。就是发现了问题，但是并不知道源码无法调试。所有就引出了白盒引用。</p>
+<p><em>白盒引用就是有源代码引用</em></p>
+<p>我们得到了该类库的源码。我们需要将该项目引用到自己的解决方案中。</p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68sw1ufgoj20v80i2jt3.jpg" alt="白盒项目"></p>
+<p>这样我们就可以看到</p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68sxkbvylj20az0ec3z3.jpg" alt="项目添加类"></p>
+<p>这样我们再自己项目中引用该项目，即可</p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68syycmfhj215r0kuwgf.jpg" alt="白盒引用"></p>
+<p>这样我们再重新运行减法运算，调试以下。</p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68t2hoa1oj20tk0f6dgx.jpg" alt="白盒断点调试"></p>
+<p>从上面就能看出，sub方法再a-b-10导致，我们也可以修改</p>
+<h5 id="类，对象，成员"><a href="#类，对象，成员" class="headerlink" title="类，对象，成员"></a>类，对象，成员</h5><p>对象也叫实例，是类经过“实例化”后得到的内存中的实体。</p>
+<ul>
+<li>“飞机”与“一架飞机”有何区别？      天上有（一架）飞机 —— 必须是实例飞，概念不能飞</li>
+<li>有些类是不能实例化的，比如“数学”（Math      class），我们不能说“一个数学</li>
+</ul>
+<p>使用new 操作符创建类的实例</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">new Form()</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>引用变量与实例的关系</li>
+<li>孩子与气球</li>
+<li>气球不一定有孩子牵着</li>
+<li>多个孩子可以使用各自的绳子牵着同一个气球，也可以都通过一根绳子（ref）牵着各自的气球</li>
+</ul>
+<p>new Form()相当于气球，需要孩子来牵着，否则就会进入垃圾回收站。所以正常来看就是只是实例化了。但是需要引用变量来接收，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Form f = new Form();</span><br></pre></td></tr></table></figure>
+
+<p><strong>类的三大成员 属性、方法、事件</strong></p>
+<ul>
+<li><p>属性      Property</p>
+<p>存储数据，组合起来表示类或对象当前的状态</p>
+</li>
+<li><p>方法      Method</p>
+<p>由 C   语言中的函数（function）进化而来，表示类或对象“能做什么”，工作中      90% 的时间是与方法打交道，因为它是“真正做事”、“构成逻辑”的成员</p>
+</li>
+<li><p>事件      Event</p>
+<p>类或对象通知其它类或对象的机制，为      C# 所特有（Java 通过其它办法实现这个机制，善用事件机制非常重要（切勿滥用）</p>
+</li>
+</ul>
+<h5 id="详解类型、变量与对象"><a href="#详解类型、变量与对象" class="headerlink" title="详解类型、变量与对象"></a>详解类型、变量与对象</h5><ul>
+<li>Type 又名数据类型（Data Type）</li>
+<li><ol>
+<li>A data type is a homogeneous collection of values, effectively presented, equipped with a set of operations which manipulate these values.</li>
+</ol>
+</li>
+<li><ol>
+<li>是数据在内存中存储时的“型号”</li>
+</ol>
+</li>
+<li><ul>
+<li>小内存容纳大尺寸数据会丢失精度、发生错误</li>
+</ul>
+</li>
+<li><ul>
+<li>大内存容纳小尺寸数据会导致浪费</li>
+</ul>
+</li>
+<li><ul>
+<li><strong>编程语言的数据类型与数据的数据类型不完全相同</strong></li>
+</ul>
+</li>
+</ul>
+<p><img src="https://ws2.sinaimg.cn/large/c44b3fe4gy1g6i1x6kadgj20vp0m2k98.jpg" alt="C#数据类型"></p>
+<p><em>引用类型中</em></p>
+<p>Class，Interface，delegate是定义数据类型的。</p>
+<p>object，String是具体的数据类型。</p>
+<p><em>值类型中</em></p>
+<p>struct，enum是定义数据类型的。</p>
+<p>bool，byte，char…………ulong，ushort 是具体的数据类型。</p>
+<p><strong>变量</strong></p>
+<ol>
+<li>静态变量，</li>
+<li>实例变量（成员变量，字段），</li>
+<li>数组元素，</li>
+<li>值参数，</li>
+<li>引用参数，</li>
+<li>输出形参，</li>
+<li>局部变量</li>
+</ol>
+<p>下面一一举例：</p>
+<p>先定义一个类：</p>
+<p><strong>1:静态变量，</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">class  student</span><br><span class="line"></span><br><span class="line">  &#123;</span><br><span class="line"></span><br><span class="line">      public static int Amount;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>我们再主类中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">class Program</span><br><span class="line">   &#123;</span><br><span class="line">       static void Main(string[] args)</span><br><span class="line">       &#123;</span><br><span class="line">           // 静态成员（变量）</span><br><span class="line">             student.Amount </span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>2:实例变量（成员变量，字段）</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">class  student</span><br><span class="line"></span><br><span class="line">  &#123;</span><br><span class="line"></span><br><span class="line">       public static int Amount;</span><br><span class="line">       public int age;</span><br><span class="line">       public string name;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>主类中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">class Program</span><br><span class="line">   &#123;</span><br><span class="line">       static void Main(string[] args)</span><br><span class="line">       &#123;</span><br><span class="line">         //实例化</span><br><span class="line">        student s   =  new  student()</span><br><span class="line">	//实例变量</span><br><span class="line">           s.age = 9;</span><br><span class="line">           s.name = &quot;xxx&quot;;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>3 数组元素，</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">int[] array = new int[100];</span><br><span class="line"></span><br><span class="line">array[10] = 10;</span><br></pre></td></tr></table></figure>
+
+<p><strong>4 值参数，7局部变量</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">class  student</span><br><span class="line"></span><br><span class="line">  &#123;</span><br><span class="line"></span><br><span class="line">       public static int Amount;</span><br><span class="line">       public int age;</span><br><span class="line">       public string name;</span><br><span class="line">    </span><br><span class="line">    // double a 属于值参数 </span><br><span class="line">    </span><br><span class="line">    public double GetAdd(double a,double b)</span><br><span class="line">      &#123;</span><br><span class="line">	 </span><br><span class="line">          // double c属于局部变量，位于方法体内</span><br><span class="line">          double c;</span><br><span class="line">          c = a + b;</span><br><span class="line">          return c;</span><br><span class="line">           </span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>5 引用参数</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">class  student</span><br><span class="line"></span><br><span class="line">  &#123;</span><br><span class="line"></span><br><span class="line">       public static int Amount;</span><br><span class="line">       public int age;</span><br><span class="line">       public string name;</span><br><span class="line">    </span><br><span class="line">    // ref double a 属于引用参数参数 </span><br><span class="line">    </span><br><span class="line">    public double GetAdd(ref double a,double b)</span><br><span class="line">      &#123;</span><br><span class="line">	 </span><br><span class="line">          double c;</span><br><span class="line">          c = a + b;</span><br><span class="line">          return c;</span><br><span class="line">           </span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>6 输出参数</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"> </span><br><span class="line"></span><br><span class="line">class  student</span><br><span class="line"></span><br><span class="line">  &#123;</span><br><span class="line"></span><br><span class="line">       public static int Amount;</span><br><span class="line">       public int age;</span><br><span class="line">       public string name;</span><br><span class="line">    </span><br><span class="line">    // out double a 属于输出参数 </span><br><span class="line">    </span><br><span class="line">    public double GetAdd(out double a,double b)</span><br><span class="line">      &#123;</span><br><span class="line">	 </span><br><span class="line">          double c;</span><br><span class="line">          c = a + b;</span><br><span class="line">          return c;</span><br><span class="line">           </span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<p>那么变量是如何存储在内存中呢？可以分为两种情况，值类型与引用类型.</p>
+<p>在这之前我们需要先了解字节与位 1字节=8位，即 1byte=8bit。假设我们用short举例</p>
+<p>打开MSDN帮助</p>
+<p><img src="https://ws4.sinaimg.cn/large/c44b3fe4gy1g6i3572r2oj20x60didge.jpg" alt="short"></p>
+<p>从这可以看到 范围和大小</p>
+<p>（正数最高位0，负数最高位位1）</p>
+<p>因为是有符号位的，所以最大的应该是15个1，转换成10进制则为32,767</p>
+<p>大小16位占了2个字节，可以参考以下图</p>
+<p><img src="https://wx4.sinaimg.cn/large/c44b3fe4gy1g6i3n95whhj21gv0ketal.jpg" alt="内存"></p>
+<h6 id="值类型"><a href="#值类型" class="headerlink" title="值类型"></a>值类型</h6><p>就是我们如果赋值</p>
+<p>short x=1000</p>
+<p>系统先为x开辟一个16位的空间，再将其1000转化为二进制，1111101000</p>
+<p>将其配成16位0000001111101000，然后高对高，低对低，</p>
+<p><img src="http://wx2.sinaimg.cn/large/c44b3fe4gy1g6i3ywm32kj20b40djwep.jpg" alt="内存1"></p>
+<p>这样x变量值就放进内存中。那假如是-1000呢，同样我们先将1000转换二进制</p>
+<p>0000001111101000，然后再<strong>各个位取反，加一</strong>得到</p>
+<p>1111110000011000，这样得到后再分配给内存。得到以下</p>
+<p><img src="http://ws1.sinaimg.cn/large/c44b3fe4gy1g6i41p2xbfj20bt0ejwes.jpg" alt="内存2"></p>
+<h6 id="引用类型"><a href="#引用类型" class="headerlink" title="引用类型"></a>引用类型</h6><p>引用类型就比较复杂，我们先定义一个类</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">class student</span><br><span class="line"> &#123;</span><br><span class="line">     uint ID;</span><br><span class="line">     ushort Score;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<p>我们可以看到 unit 占据4个字节，ushort 2个字节</p>
+<p>在主类中，我们先引用变量</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">student stu;</span><br></pre></td></tr></table></figure>
+
+<p>这时候我们需要明白，系统会自动分配给4个字节，每个字节都是0，</p>
+<p><img src="http://ws2.sinaimg.cn/large/c44b3fe4gy1g6i49p1rdjj20by0jvgm5.jpg" alt="内存3"></p>
+<p>然后我们就会实例化</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">stu = new student();</span><br></pre></td></tr></table></figure>
+
+<p>这时候我们就会在堆中找到需要的内存，这时候我们真正的存储了uint ID; ushort Score;的值。这时候我们随机赋值给stu.ID ， stu.Score；我们可看到此时的堆内存地址30000001。转换成二进制</p>
+<p>1 1100 1001 1100 0011 1000 0001‬  转换</p>
+<p>00000001 1100 1001 1100 0011 1000 0001‬<br>        高——————低</p>
+<p><img src="http://ws1.sinaimg.cn/large/c44b3fe4gy1g6i5xpd6n0j211j0k9abu.jpg" alt="内存4"></p>
 
       
     </div>
@@ -481,8 +632,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/08/03/随笔/" rel="next" title="随笔">
-                <i class="fa fa-chevron-left"></i> 随笔
+              <a href="/2019/08/20/c-数据库相关/" rel="next" title="c#数据库相关">
+                <i class="fa fa-chevron-left"></i> c#数据库相关
               </a>
             
           </div>
@@ -490,10 +641,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/08/20/c-数据库相关/" rel="prev" title="c#数据库相关">
-                c#数据库相关 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -550,8 +697,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -630,6 +786,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#类（class）与名称空间-namespace"><span class="nav-number">1.</span> <span class="nav-text">类（class）与名称空间(namespace)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#类，对象，成员"><span class="nav-number">2.</span> <span class="nav-text">类，对象，成员</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#详解类型、变量与对象"><span class="nav-number">3.</span> <span class="nav-text">详解类型、变量与对象</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#值类型"><span class="nav-number">3.1.</span> <span class="nav-text">值类型</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#引用类型"><span class="nav-number">3.2.</span> <span class="nav-text">引用类型</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
