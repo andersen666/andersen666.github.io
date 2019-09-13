@@ -98,13 +98,13 @@
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68syycmfhj215r0kuwgf.jpg">
 <meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4gy1g68t2hoa1oj20tk0f6dgx.jpg">
 <meta property="og:image" content="https://ws2.sinaimg.cn/large/c44b3fe4gy1g6i1x6kadgj20vp0m2k98.jpg">
-<meta property="og:image" content="https://ws4.sinaimg.cn/large/c44b3fe4gy1g6i3572r2oj20x60didge.jpg">
-<meta property="og:image" content="https://wx4.sinaimg.cn/large/c44b3fe4gy1g6i3n95whhj21gv0ketal.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4ly1g6y025nzioj20x60didge.jpg">
+<meta property="og:image" content="http://ww1.sinaimg.cn/large/c44b3fe4ly1g6y02tu7xxj21gv0ketal.jpg">
 <meta property="og:image" content="http://wx2.sinaimg.cn/large/c44b3fe4gy1g6i3ywm32kj20b40djwep.jpg">
 <meta property="og:image" content="http://ws1.sinaimg.cn/large/c44b3fe4gy1g6i41p2xbfj20bt0ejwes.jpg">
 <meta property="og:image" content="http://ws2.sinaimg.cn/large/c44b3fe4gy1g6i49p1rdjj20by0jvgm5.jpg">
 <meta property="og:image" content="http://ws1.sinaimg.cn/large/c44b3fe4gy1g6i5xpd6n0j211j0k9abu.jpg">
-<meta property="og:updated_time" content="2019-08-30T16:22:59.366Z">
+<meta property="og:updated_time" content="2019-09-13T09:06:38.802Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C_Sharp笔记">
 <meta name="twitter:description" content="类（class）与名称空间(namespace)先举例： 类库：图书馆 命名空间：书架（计算机与科学书架（库）） 类： 书 对象：具体的某本书 在C#种必须首先引用命名空间，相当于我要找书，先要知道书架在哪。 在代码中 12//命名空间 .类.方法         System. Console.WriteLine(&amp;quot;hello world&amp;quot;);  但是因为每次都这么使用会显得">
@@ -565,12 +565,12 @@
 <p>那么变量是如何存储在内存中呢？可以分为两种情况，值类型与引用类型.</p>
 <p>在这之前我们需要先了解字节与位 1字节=8位，即 1byte=8bit。假设我们用short举例</p>
 <p>打开MSDN帮助</p>
-<p><img src="https://ws4.sinaimg.cn/large/c44b3fe4gy1g6i3572r2oj20x60didge.jpg" alt="short"></p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4ly1g6y025nzioj20x60didge.jpg" alt="short.png"></p>
 <p>从这可以看到 范围和大小</p>
 <p>（正数最高位0，负数最高位位1）</p>
 <p>因为是有符号位的，所以最大的应该是15个1，转换成10进制则为32,767</p>
 <p>大小16位占了2个字节，可以参考以下图</p>
-<p><img src="https://wx4.sinaimg.cn/large/c44b3fe4gy1g6i3n95whhj21gv0ketal.jpg" alt="内存"></p>
+<p><img src="http://ww1.sinaimg.cn/large/c44b3fe4ly1g6y02tu7xxj21gv0ketal.jpg" alt="内存.png"></p>
 <h6 id="值类型"><a href="#值类型" class="headerlink" title="值类型"></a>值类型</h6><p>就是我们如果赋值</p>
 <p>short x=1000</p>
 <p>系统先为x开辟一个16位的空间，再将其1000转化为二进制，1111101000</p>
