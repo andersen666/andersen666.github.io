@@ -443,10 +443,10 @@
 <p>下面来进行实际操作。不管怎样，我们需要先要在vs中连接数据库；这时候我们就用到了SqlConnection，当然在这之前我们需要先 引用命名空间（类都在这其中）using System.Data.SqlClient;</p>
 <p>我在本地服务器有一个数据库服务器名称 127.0.0.1;数据库名字 test1;用户名 sa 密码xs19940316”</p>
 <p>所以我们就需要实例化对象,连接数据库</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SqlConnection Conn = new SqlConnection(&quot;server=127.0.0.1;database=test1;user=sa;pwd=xs19940316&quot;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SqlConnection Conn = <span class="keyword">new</span> SqlConnection(<span class="string">"server=127.0.0.1;database=test1;user=sa;pwd=xs19940316"</span>);</span><br></pre></td></tr></table></figure>
 
 <p>连接上了数据库，当然是打开数据库</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Conn.open();</span><br></pre></td></tr></table></figure>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Conn.open();</span><br></pre></td></tr></table></figure>
 
 <p>可能会想如果数据库服务器名称或者密码填错呢，肯定会报错的。。假如此时我将数据库名称写错</p>
 <p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g66jec2i9ij20q90a0mya.jpg" alt="wrong"></p>
@@ -455,7 +455,7 @@
 <p>我们先查看数据库中students表中的字段与值。</p>
 <p><img src="http://ww1.sinaimg.cn/large/c44b3fe4gy1g66jjw6cj5j20as02j0si.jpg" alt="stu"></p>
 <p>首先连接，打开数据库</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SqlConnection Conn = new SqlConnection(&quot;server=127.0.0.1;database=test1;user=sa;pwd=xs19940316&quot;);</span><br></pre></td></tr></table></figure>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SqlConnection Conn = <span class="keyword">new</span> SqlConnection(<span class="string">"server=127.0.0.1;database=test1;user=sa;pwd=xs19940316"</span>);</span><br></pre></td></tr></table></figure>
 
 <p><strong>第一种方法</strong></p>
 <p>然后我们需要定义一个字符串来存放操作的语句，以便执行</p>
@@ -607,7 +607,7 @@ SqlCommand Cmd = new SqlCommand(strSql,Conn);</code></pre><p>​            </p>
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -690,7 +690,7 @@ SqlCommand Cmd = new SqlCommand(strSql,Conn);</code></pre><p>​            </p>
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
