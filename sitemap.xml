@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://andersen666.github.io.git/about/index.html</loc>
+    
+    <lastmod>2020-05-19T03:21:49.926Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://andersen666.github.io.git//404.html</loc>
+    
+    <lastmod>2020-05-19T03:21:27.024Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://andersen666.github.io.git/2020/04/23/hello-world/</loc>
     
     <lastmod>2020-04-23T01:34:03.522Z</lastmod>
@@ -65,23 +79,9 @@
   </url>
   
   <url>
-    <loc>https://andersen666.github.io.git//404.html</loc>
-    
-    <lastmod>2019-07-17T08:24:03.616Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://andersen666.github.io.git/message/index.html</loc>
     
     <lastmod>2019-07-16T11:31:39.187Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://andersen666.github.io.git/about/index.html</loc>
-    
-    <lastmod>2019-07-16T11:27:56.997Z</lastmod>
     
   </url>
   
