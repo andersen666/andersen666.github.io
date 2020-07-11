@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://andersen666.github.io.git/2020/07/11/postgres/</loc>
+    
+    <lastmod>2020-07-11T08:37:50.173Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://andersen666.github.io.git/2020/04/23/hello-world/</loc>
+    
+    <lastmod>2020-07-11T08:29:14.732Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://andersen666.github.io.git/about/index.html</loc>
     
     <lastmod>2020-05-19T03:21:49.926Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>https://andersen666.github.io.git//404.html</loc>
     
     <lastmod>2020-05-19T03:21:27.024Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://andersen666.github.io.git/2020/04/23/hello-world/</loc>
-    
-    <lastmod>2020-04-23T01:34:03.522Z</lastmod>
     
   </url>
   
@@ -47,6 +54,13 @@
     <loc>https://andersen666.github.io.git/2019/08/20/c-%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9B%B8%E5%85%B3/</loc>
     
     <lastmod>2019-08-20T16:30:44.011Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://andersen666.github.io.git/2019/08/14/%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%AA%97%E4%BD%93(%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F)/</loc>
+    
+    <lastmod>2019-08-15T05:20:43.761Z</lastmod>
     
   </url>
   
